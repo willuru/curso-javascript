@@ -18,7 +18,7 @@ var boolean2 = false // falso
 //Arreglos, listas (array, list)
 var lista2 = [willmer, Momo, Diego]
 var lista3 = [true, true, false]
-var lista4 = [true, 100 'Hola']
+var lista4 = [true, 100, 'Hola']
 var listaVacia = []
 var listaDeVariables = [numero, Texto1, boolean2]
 var elemento4 = lista1[3] // elemento4 = 4
