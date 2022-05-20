@@ -44,17 +44,3 @@ var como = ' como '
 var estas = 'estas'
 var saludo = hola+como+estas
 alert(saludo)
-
-
-
-
-
-
-
-
-
-
-
-
-
-

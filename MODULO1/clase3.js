@@ -72,5 +72,3 @@ false && true && false // false
 // para que un or sea true los valores de verdad ue tiene a su derecha o izquierda, alguno de los dos deben ser true
 true || false || false // true
 4 > 3 || 5 < 2 //true
-
-
