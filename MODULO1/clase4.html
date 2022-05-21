@@ -13,21 +13,51 @@
         //  se requiere pedirle un numero al usuario y mostrar si ese numero es positivo , negativo o 0
        // var numero = prompt('Hola, por favor dame un numero')
        //transformar a numero en una variable numerica 
-        numero = parseInt(numero)
-        console.log(typeof numero)
-        if (numero > 0){
-          alert(`El numero: ${numero},es positivo`)
-        } else if (numero == 0) {
-         alert(`Èl numero ${numero}, es cero`)
-        } else if  (numero < 0) {
-         alert(`Èl numero ${numero}, es negativo`)
-        }
+       // numero = parseInt(numero)
+        //console.log(typeof numero)
+       // if (numero > 0){
+        //  alert(`El numero: ${numero},es positivo`)
+        //} else if (numero == 0) {
+         //alert(`Èl numero ${numero}, es cero`)
+        //} else if  (numero < 0) {
+        // alert(`Èl numero ${numero}, es negativo`)
+        //}
 //var nombre = prompt('Hola, porfavor dame tuu nombre')
 //if (nombre ==='Willmer') {
   //  alert('Hola Willmer')
 //} else if (nombre === 'Javier'){
   //  alert('Hola Javier')
 //}
+
+
+// ejercicio extra clase 
+var pizza = 6000
+const piña = 2000
+const jamon = 3000
+const helado = 1000
+const salsa = 500
+
+const pizzaTopping = prompt('Hola, porfavor elije el tipo de topping para tu pizza')
+
+	if (pizzaTopping === 'piña'){
+        pizza += piña
+    }
+    else if (pizzaTopping === 'jamon'){
+        pizza += jamon
+    }
+    else if (pizzaTopping === 'helado'){
+        pizza += helado
+    }
+    else if (pizzaTopping === 'salsa'){
+        pizza += salsa
+    } else{
+        alert(`no disponemos del topping de ${pizzaTopping}, lo sentimos `)
+    
+    } 
+
+   
+    alert(`el valor de tu pizza es:  ${pizza}`)
+    
 
     </script>
     
