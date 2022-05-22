@@ -8,25 +8,97 @@
 </head>
 <body>
     <script>
+                  // primer ejercicio...
 
         //Numeros mayores y numero menores
 //programa que pide al usuario 2 numero y dice cual numero es mayor y cual es menor 
 
- var primerNumero = prompt(`hola dame el primer numero, por favor`)
-var primerNumero = parseInt(primerNumero)
+// var primerNumero = prompt(`hola dame el primer numero, por favor`)
+ //var primerNumero = parseInt(primerNumero)
+//var segundoNumero = prompt(`dame el segundo numero, por favor`)
+//var segundoNumero = parseInt(segundoNumero)
 
-var segundoNumero = prompt(`dame el segundo numero, por favor`)
-var segundoNumero = parseInt(segundoNumero)
 
-if (primerNumero > segundoNumero){
-  alert(`${primerNumero} es mayor que ${segundoNumero}`)
-} else if (primerNumero < segundoNumero){
-  alert(`${primerNumero} es menor que ${segundoNumero}`)
+  //    if (isNaN(primerNumero) || isNaN(segundoNumero)){
+   //   alert (`solo se aceptan numeros`)
+   //   } else{
+      
+   //  if (primerNumero > segundoNumero){
+   // alert(`${primerNumero} es mayor que ${segundoNumero}`)
+   // } else if (primerNumero < segundoNumero){
+   // alert(`${primerNumero} es menor que ${segundoNumero}`)
+     // }
+     // }
+      //alert (`fin del ciclo`)
+
+
+
+
+
+                 // segundo ejercicio
+
+          //  Imprimir numeros en un rango
+//pedir al usuario dos numeros , luego imprimir los numeros entre esos dos numero.
+
+// var primerNumero = prompt(`hola, dame el primer numero por favor`)
+// var primerNumero = parseInt(primerNumero)
+
+// var segundoNumero = prompt(`dame el segundo numero, por favor`)
+// var segundoNumero = parseInt(segundoNumero)
+
+// if (isNaN(primerNumero) || isNaN(segundoNumero)){
+  // alert (`solo se aceptan numeros`)
+ //} else{
+
+//for (var contador = primerNumero; contador <= segundoNumero; contador++) {
+  //alert([contador])
+
+//}
+  // }
+//alert (`fin del ciclo`)
+
+
+
+
+
+
+                          // ejercicio 3
+
+                       //Ejercicio calculadora 
+//pedir dos numeros al ususario y mostrar el resultado de multiplicarlos, dividirlos, restarlos y sumerlos.
+ //var primerNumero = prompt(`hola, dame el primer numero por favor`)
+ //var primerNumero = parseInt(primerNumero)
+
+ //var segundoNumero = prompt(`dame el segundo numero, por favor`)
+ //var segundoNumero = parseInt(segundoNumero)
+
+
+//var multiplicar = primerNumero+segundoNumero {
+  //alert(``)
+//}
+
+//alert (`Fin del ciclo`)
+
+
+//busqueda de un numero 
+//cree un array de 10 numeros [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], luego pida al usuario un numero y mostrar si esta en la array
+
+
+
+const lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+var numeroABuscar = prompt(`hola, que numero quieres buscar?`)
+var numeroABuscar = parseInt(numeroABuscar)
+
+var contador = 0
+var tamañoLista = lista.length
+while (contador <= tamañoLista -1){
+  var elementoActual = lista[contador]
+  if (numeroABuscar === elementoActual) {
+    alert(`encontre el numero`)
+  }
+  contador++
 }
-
-
-
-
 
     </script>
 </body>
