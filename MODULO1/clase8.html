@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Funciones</h1>
+<script>
+
+  //  const primerNumero = 15
+  //  const segundoNumero = 10
+// funciones forma antigua
+  //  function sumar(numero1, numero2){
+   //     const suma = numero1 + numero2
+    //    return suma
+   // }
+// funciones forma nueva 
+//const sumar1 = (numero1, numero2) => {
+  //  const suma = numero1 + numero2
+    //    return suma
+//}
+// asi se ejecuta o se llama una funcion 
+   // var sumatoria = sumar(primerNumero, segundoNumero)
+     //   console.log(sumatoria)
+
+
+//const saludar = () => {
+  //  alert('hola')
+//}
+ //<button type="button" onclick="saludar()"> saludar </button>
+
+
+ 
+
+                //ejercicio en clase 7
+// pedir dos numero al usuario con foncion boton y sumarlo , multiplicar, restarlo y dividir.
+var numero1
+var numero2
+
+const perdirNumeros = () => {
+numero1 = parseInt(prompt(`Dame el primer numero`))
+numero2 = parseInt(prompt(`Dame el segundo numero`))
+}
+
+const suma = () => {
+    const resultadoSuma = numero1 + numero2
+    alert(`La suma es ${resultadoSuma}`)
+}
+
+const resta = () => {
+    const resultadoResta = numero1 - numero2
+    alert(`La resta es ${resultadoResta}`)
+}
+
+const multiplicar = () => {
+    const resultadoMultiplicar = numero1 * numero2
+    alert(`La multiplicar  es ${resultadoMultiplicar}`)
+}
+
+const dividir = () => {
+    const resultadoDividir = numero1 / numero2
+    alert(`La dividir es ${resultadoDividir}`)
+}
+
+
+</script>
+   <button type="button" onclick="perdirNumeros()"> pedir numeros </button>
+   <button type="button" onclick="suma()"> sumar </button>
+   <button type="button" onclick="resta()"> resta </button>
+   <button type="button" onclick="multiplicar()"> multiplicar </button>
+   <button type="button" onclick="dividir()"> dividir </button>
+
+</html>

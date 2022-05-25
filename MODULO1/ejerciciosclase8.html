@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//Se requiere construir el robot saludador (greetings bot), para ello se deben crear 3 botones:
+//*- El primero debe recolectar el nombre de la persona
+//- El segundo debe pedir el apellido
+//- El tercer boton debe saludar a la persona con un Hello <name> <lastname>Para el codigo se tienen las siguientes restricciones:
+//- El boton de pedir nombre y el de pedir apellido deben ejecutar la misma funcion, pero dependiendo de que boton se presione asi mismo 
+//se pide el nombre o el apellido. Ejemplo: la funcion se llama pedirDatos(), si presiono el boton de nombre,
+// entonces se ejecuta la funcion de pedirDatos() y me pide mi nombre, asi mismo con el apellido.
+// (Tener en cuenta que si presiono pedir nombre, no necesito que me pida el apellido)
+//- Maximo de funciones permitidas: 2
+
+var nombre
+var apellido
+
+const saludador = (tipo) => {
+    if (tipo === `nombre`) {
+        nombre = prompt(`dame tu nombre`)
+
+    } else if (tipo === `apellido`) {
+        apellido = prompt(`Dame tu apellido`)
+    }
+    console.log(nombre, apellido)
+    }
+
+
+    const saludo = () => {
+    const nombreCompleto = (nombre, apellido)
+    alert(`Hola ${nombre}  ${apellido}`)
+}
+
+
+    </script>
+  
+ <button type="button" onclick="saludador(`nombre`)"> nombre </button>
+ <button type="button" onclick="saludador(`apellido`)"> apellido </button>
+<button type="button" onclick="saludo(`nombre, apellido`)"> saludar </button>
+</body>
+</html>
