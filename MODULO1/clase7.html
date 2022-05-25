@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            //Hacer un programa que pida 10 numeros al usuario usando un bucle while (usa prompt para pedir los datos y 
+            //convertirlos a valor numeroco posteriormente). almacenar los numeros eintroducidos por el usuario en un array.
+            //(pista: para agregar un elemento a un array se puede hacer con lista.puhs(elemento), tambien con lista[0]= elemento)
+            //acontinuacion usando un ciclo for recorrer el array y mostrar un mensaje informando el resultado de multiplicar
+            //cada uno de los numero por 3.
+
+            var contador = 0
+            var lista = []
+            while (contador < 10) {
+                
+                var numero = prompt (`porfavor dame un numero`)
+                numero = parseInt(numero)
+
+                lista.push(numero)
+                contador++
+            }
+            const tamañoLista = lista.length
+            for (let contador2 = 0;contador2 < lista.length; contador2++) {
+             const elementoLista = lista[contador2]
+
+             alert (`El elemento = ${elementoLista} multiplicado por 3 es igual a ${elementoLista * 3}`)
+
+             
+
+            }
+            alert (`Fin del ciclo`)
+                
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
